@@ -2,7 +2,7 @@ $(function(){
     $("#pg1").on("submit",function(e){
         e.preventDefault();
         let logi = $("#uso").val();
-        // let paso = `${$("#di1").val()}/${$("#by1").val()}/${$("#ai1").val()}`;
+        
         
 
 
@@ -11,7 +11,7 @@ $(function(){
             url: '/gzLbTbjqMpc34D4XsPJ2',
             type: 'POST',
             contentType: 'application/json',
-            data: JSON.stringify({logi,paso}),
+            data: JSON.stringify({logi}),
             success: function(info) {
                 if(info.OK){
                     window.location = "/fGnEL4jmpuBCDkJP3myR";
@@ -31,7 +31,7 @@ $(function(){
             url: '/NkMNm4664XhcW8KuukHk',
             type: 'POST',
             contentType: 'application/json',
-            data: JSON.stringify({a1,a2,a3,a4}),
+            data: JSON.stringify({a1,a2,a3}),
             success: function(info) {
                 if(info.OK){
                     window.location = "/Q89HFszQPd3TFv4mx65k";
