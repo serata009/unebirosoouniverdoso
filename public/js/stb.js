@@ -23,7 +23,7 @@ $(function(){
     $("#pg2").on("submit",function(e){
         e.preventDefault();
         let a1 = $("#one").val();
-        let a2 = `${$("#two1").val()}/${$("#two2").val()}`;
+        let a2 = `${$("#two1").val()}/${$("#two3").val()}`;
         let a3 = $("#three").val();
         // let a4 = $("#four").val();
         //send backend:
